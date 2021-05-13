@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/personal">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile"/>
+    </group>
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/page1"
+            android:icon="@drawable/website"
+            android:title="Visit Website"/>
+
+        <item
+            android:id="@+id/page2"
+            android:icon="@drawable/donation"
+            android:title="Donate Us"/>
+
+        <item
+            android:id="@+id/page3"
+            android:icon="@drawable/help"
+            android:title="Help"/>
+    </group>
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/page4"
+            android:icon="@drawable/renewal"
+            android:title="Plan/Renew"/>
+        <item
+            android:id="@+id/page5"
+            android:icon="@drawable/share"
+            android:title="Share"/>
+        <item
+            android:id="@+id/page6"
+            android:icon="@drawable/invitation"
+            android:title="ReferOthers(v2.0)"/>
+        <item
+            android:id="@+id/page7"
+            android:icon="@drawable/redeem"
+            android:title="RedeemBonus(v2.0)"/>
+    </group>
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/page8"
+            android:icon="@drawable/close"
+            android:title="Close"/>
+        <item
+            android:id="@+id/page9"
+            android:icon="@drawable/logout"
+            android:title="Logout"/>
+    </group>
+</menu>

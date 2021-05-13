@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Krypto Edutor</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="selQual">Choose Qualification</string>
+    <string name="selStream">Choose Department</string>
+    <string name="selSub">Select Subject</string>
+    <string name="Toast1">
+        The Option Is Updating on 31st July. We Provide All Sorts Of Possible Form Of Educational Platform For Teachers And Students In Portable Manner. So Be With Us. Thank You!
+    </string>
+    <string name="displayName">
+        Krypto Edutor (1.0.1)
+    </string>
+    <string name="Help">
+        This Application is known as "Teacher-Student Interactive Platform", here teacher and student both can interact with each other
+        from their remote location and also they can share the information regarding the education and others. In this application teacher and student
+        together need to register themselves and even it is prime duty of teacher to guide his/her each and every student regarding the platform
+        and its utility, which is not possible for the teacher to perform always. The main advantage of this platform is that, here both teacher and student
+        can interact each other at anytime and from anywhere.
+        This platform is not the end because we primarily launch our first version of this application for the implementation of education
+        which is choked due to pandemic, we also ready for the second version of this application, as in our next update we provide those feature that we cannot
+        provide right now during our app launching.\n
+           This application is developed by: Krypto Developers Pvt. Ltd. (9706302163/7002858945)
+
+    </string>
+
+    <string-array name="setStream">Set Stream
+        <item>CHOOSE DEPARTMENT</item>
+        <item>ARTS</item>
+        <item>COMMERCE</item>
+        <item>SCIENCE</item>
+        <item>COMPUTER SCIENCE</item>
+    </string-array>
+    <string-array name="setSem">Set Sem/Year
+        <item>CHOOSE PAYMENT TYPE</item>
+        <item>HS LEVEL</item>
+        <item>DEGREE LEVEL</item>
+        <item>COMPUTER SCIENCE</item>
+    </string-array>
+    <string-array name="setQual">Set Qualification
+        <item>CHOOSE QUALIFICATION TYPE</item>
+        <item>GRADUATE</item>
+        <item>POST GRADUATE</item>
+        <item>POST GRADUATE,PHD</item>
+        <item>POST GRADUATE,NET</item>
+        <item>POST GRADUATE,SLET</item>
+        <item>POST GRADUATE,PHD/NET/SLET</item>
+    </string-array>
+    <string-array name="setSubs">Set Subject
+        <item>CHOOSE SUBJECT TYPE</item>
+        <item>ACCOUNTANCY</item>
+        <item>MANAGEMENT</item>
+        <item>COMPUTER SCIENCE</item>
+        <item>PHYSICS</item>
+        <item>MATHEMATICS</item>
+        <item>CHEMISTRY</item>
+        <item>BOTANY</item>
+        <item>ZOOLOGY</item>
+        <item>POLITICAL SCIENCE</item>
+        <item>HISTORY</item>
+        <item>ECONOMICS</item>
+        <item>GEOGRAPHY</item>
+        <item>STATISTICS</item>
+        <item>ENGLISH</item>
+        <item>PRIMARY TEACHER</item>
+    </string-array>
+    <string-array name="Agreement">
+        <item>Details Mentioned Are Correct to My Knowledge</item>
+        <item>I Comply with The Rules for Not Sharing Any Information to Third Party</item>
+        <item>For Every 50 Students I Agree to increase the Package</item>
+        <item>For Every Notes and documents I published here not share with third party</item>
+        <item></item>
+    </string-array>
+    <string name="setRange">Select Range</string>
+    <string-array name="Range">Set Range
+        <item>SELECT</item>
+        <item>1-30</item>
+        <item>31-60</item>
+        <item>61-120</item>
+        <item>121-150</item>
+        <item>Above 150</item>
+    </string-array>
+    <string name="AppInfo">App Informer</string>
+    <string-array name="appInfo">Source
+        <item>SELECT SOURCE</item>
+        <item>NEWSPAPER</item>
+        <item>GOOGLE</item>
+        <item>LOCAL PERSON</item>
+        <item>REFERRER</item>
+        <item>OTHERS</item>
+    </string-array>
+    <string-array name="selOption">Select Section
+        <item>SELECT TEACHER</item>
+    </string-array>
+    <string-array name="selInfo">Category
+        <item>SELECT</item>
+        <item>AHSEC</item>
+        <item>CBSE</item>
+        <item>ASSAM UNIVERSITY</item>
+        <item>GUWAHATI UNIVERSITY</item>
+        <item>DIBRUGARH UNIVERSITY</item>
+        <item>COTTON UNIVERSITY</item>
+        <item>TEZPUR UNIVERSITY</item>
+        <item>KAZIRANGA UNIVERSITY</item>
+        <item>ROYAL GLOBAL UNIVERSITY</item>
+        <item>DOWN TOWN UNIVERSITY</item>
+    </string-array>
+    <string name="selSection">Select Level</string>
+    <string-array name="levelArray">Category
+        <item>SELECT</item>
+        <item>CLASS-9</item>
+        <item>CLASS-10</item>
+        <item>HS-11</item>
+        <item>HS-12</item>
+        <item>SEMESTER-I</item>
+        <item>SEMESTER-II</item>
+        <item>SEMESTER-III</item>s
+        <item>SEMESTER-IV</item>
+        <item>SEMESTER-V</item>
+        <item>SEMESTER-VI</item>
+    </string-array>
+    <string-array name="setType">Set Type
+        <item>CHOOSE COURSE TYPE</item>
+        <item>PASS</item>
+        <item>HONOURS</item>
+        <item>NONE</item>
+    </string-array>
+</resources>

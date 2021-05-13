@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/logo"
+            android:layout_marginStart="10dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/displayName"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#950404"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:marqueeRepeatLimit="marquee_forever"/>
+    </LinearLayout>
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Teachers' Settings (Student Counter)"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/linearlayoutbackbor"
+        android:layout_marginBottom="5dp"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:stretchColumns="*"
+            android:shrinkColumns="*"
+            android:background="@color/colorDivider"
+            >
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEFAULT"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/cell_shape"
+                    android:textColor="@color/colorPrimaryText"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/oldValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:padding="5dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/cell_shape"
+                    android:textColor="@color/colorPrimaryText"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADD(+)"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@drawable/cell_shape"
+                    android:textColor="@color/colorPrimaryText"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/newValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:hint="00"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEDUCT(-)"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@drawable/cell_shape"
+                    android:textColor="@color/colorPrimaryText"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/newValue1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/cell_shape"
+                    android:hint="00"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimaryText"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:background="@drawable/cell_shape"
+                    android:textColor="@color/colorPrimaryText"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/totalValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="00"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:editable="false"
+                    android:background="@drawable/cell_shape"
+                    android:textColor="@color/colorPrimaryText"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/validate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Review"
+                    android:textSize="13sp"
+                    android:drawableLeft="@drawable/validate"
+                    />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/updateplan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="Update"
+                    android:textSize="13sp"
+                    android:drawableLeft="@drawable/update_quota"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.selfowner.krypto_tutor">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Make_Payment"></activity>
+        <activity android:name=".Plan_Renew" />
+        <activity android:name=".Donate_Us" />
+        <activity android:name=".Profile_Section" />
+        <activity android:name=".Student_Profile_Update" />
+        <activity android:name=".Student_Profile" />
+        <activity android:name=".Student_Solution" />
+        <activity android:name=".Student_Video" />
+        <activity android:name=".Student_Audio" />
+        <activity android:name=".Student_Note" />
+        <activity android:name=".ChatBox_Section" />
+        <activity android:name=".Papers_Section" />
+        <activity android:name=".Solution_Section" />
+        <activity android:name=".Video_Section" />
+        <activity android:name=".Audio_Section" />
+        <activity android:name=".Notes_Section" />
+        <activity android:name=".Student_Loading" />
+        <activity android:name=".Teacher_Loading" />
+        <activity android:name=".Teacher_Dashboard" />
+        <activity android:name=".Student_Dashboard" />
+        <activity android:name=".Teacher_Registration" />
+        <activity android:name=".Teacher_Page" />
+        <activity android:name=".Student_Page" />
+        <activity android:name=".By_Solo" />
+        <activity android:name=".By_Teacher" />
+        <activity android:name=".Student_Registration" />
+        <activity android:name=".Selection_Page" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

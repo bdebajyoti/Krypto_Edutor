@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="5dp"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:src="@drawable/logo"
+            android:layout_marginStart="10dp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/displayName"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="#950404"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:marqueeRepeatLimit="marquee_forever"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/linearlayoutbackbor"
+        >
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="SOLUTION UPLOAD SECTION"
+            android:textColor="@color/colorTextIcons"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Upload Solution"
+            android:textColor="@color/colorTextIcons"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:background="@color/colorPrimary"
+            />
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/solName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Provide Name For Video"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/selLevel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/selSection"
+                android:entries="@array/levelArray"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dialog"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/uploadSol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BROWSE AND UPLOAD"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/solutions"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/takePic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPTURE AND UPLOAD"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/capture_image"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_margin="10dp"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/viewList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="View Uploaded List"
+            android:drawableLeft="@drawable/notes"
+            />
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cell_shape"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
